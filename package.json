@@ -1,0 +1,29 @@
+{
+  "name": "societyos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:web": "npm run dev --workspace=@societyos/web",
+    "dev:api": "npm run start:dev --workspace=@societyos/api",
+    "dev:mobile": "npm run start --workspace=@societyos/mobile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayush-Deore/societyos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ayush-Deore/societyos/issues"
+  },
+  "homepage": "https://github.com/Ayush-Deore/societyos#readme"
+}
